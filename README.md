@@ -133,8 +133,8 @@ BESS Faz. (C2->C4)       | R$    560,000 | R$    -362,274 |    -10.6% | Não amo
 ### 1. Clonar e Instalar Dependências
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-cd NOME-DO-REPOSITORIO
+git clone https://github.com/marvel-dv/vpp-dispatch-Brazil.git
+cd vpp-dispatch-Brazil
 pip install -r requirements.txt
 ```
 
