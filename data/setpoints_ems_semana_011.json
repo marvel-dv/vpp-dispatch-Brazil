@@ -1,0 +1,46 @@
+{
+  "versao": "0.1.1",
+  "horizonte": {
+    "inicio": "2026-01-05 00:00:00",
+    "fim": "2026-01-11 23:00:00",
+    "horas": 168
+  },
+  "parametros_novos_011": {
+    "modo_conversao_grupo_b": "te",
+    "fator_conversao_a4_b1_fp": 0.8286,
+    "fator_conversao_a4_b1_p": 1.3429,
+    "te_b1_rs_kwh": 0.35,
+    "fator_mes_semanas": 4.3452,
+    "fator_carga_aux_faz_pu": 0.006,
+    "fator_carga_aux_diurna_pu": 0.006,
+    "potencia_aux_noturna_faz_kw": 1.2,
+    "potencia_aux_pico_faz_kw": 2.4,
+    "cusd_minimo_fazenda_kw": 30.0,
+    "om_fazenda_desassistida_rs_mes": 2200.0,
+    "om_bess_hvac_rs_mes": 850.0
+  },
+  "c1_5_ems_isolado": {
+    "cenario": "EMS Ind. (s/VPP)",
+    "demanda_contratada_ind_kw": 100.0,
+    "custo_ind_rs_semana": 6833.46,
+    "custo_ind_rs_mes_proj": 29693.02,
+    "economia_liquida_mensal_vs_c1_rs": 2627.26
+  },
+  "c4_vpp_bess_fazenda": {
+    "cenario": "VPP+BESS Faz.",
+    "demanda_contratada_ind_kw": 103.4,
+    "musdg_kw": 120.0,
+    "cusd_fazenda_kw": 30.0,
+    "balanco_creditos_scee_semana": {
+      "geracao_solar_disponivel_fazenda_kwh": 8960.2,
+      "injecao_bruta_fazenda_kwh": 8143.2,
+      "consumo_auxiliar_rede_fazenda_kwh": 28.0,
+      "excedente_liquido_rateio_kwh": 8115.2,
+      "corte_curtailment_kwh": 413.3,
+      "creditos_ponta_ind_kwh": 0.0,
+      "creditos_fora_ponta_ind_kwh": 0.0,
+      "creditos_condominio_kwh": 7124.7,
+      "saldo_creditos_restantes_scee_kwh": 0.0
+    }
+  }
+}
